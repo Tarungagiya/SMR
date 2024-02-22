@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "155394984775",
+    "project_id": "share-my-ride-14c27",
+    "storage_bucket": "share-my-ride-14c27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155394984775:android:efbdd6b99ed1c6c85b9a62",
+        "android_client_info": {
+          "package_name": "com.example.sharemyride"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6ndpv88-App6sgToEa-32DSgu0KFupS8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

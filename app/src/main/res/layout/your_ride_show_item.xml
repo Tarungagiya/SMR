@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/item_main"
+    android:layout_marginTop="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/available_ride_icon"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/your_ride_show_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8:00 AM"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/your_ride_show_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laluka"
+            android:textSize="18dp"
+            android:layout_marginLeft="39dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" to "
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/your_ride_show_to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Khambhaliya"
+            android:textSize="18dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="Delete"
+            android:background="@color/shareMyRide"
+            android:textColor="@color/white"
+            android:layout_marginLeft="50dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/your_ride_show_person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textSize="18dp"
+            android:layout_marginLeft="39dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Person"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/your_ride_show_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tarun Gagiya"
+            android:textSize="18dp"
+            android:layout_marginLeft="39dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
