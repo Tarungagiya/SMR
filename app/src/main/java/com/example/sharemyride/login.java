@@ -38,6 +38,7 @@ public class login extends AppCompatActivity {
         nlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 SharedPreferences.Editor editor = sharedPreferences.edit();
 
                 editor.putBoolean("hasloggedin",true);
@@ -72,8 +73,10 @@ public class login extends AppCompatActivity {
                                     if (passwordckeck.equals(password_data)){
                                         npassword.setError(null);
                                         npassword.setEnabled(false);
+
                                         Intent intent = new Intent(getApplicationContext(),MainActivity.class);
                                         startActivity(intent);
+
                                         finish();
 
                                     } else {

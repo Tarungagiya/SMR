@@ -42,12 +42,12 @@
                 android:text="Full Name"
                 android:textStyle="bold" />
 
-            <EditText
+            <TextView
                 android:id="@+id/profile_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="User name"
-                android:inputType="text"
+                android:text="User Name"
+                android:textStyle="bold"
                 android:paddingTop="15dp" />
 
             <View
@@ -61,12 +61,12 @@
                 android:text="Mobile Number"
                 android:textStyle="bold" />
 
-            <EditText
+            <TextView
                 android:id="@+id/profile_mobileno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Mobile No..."
-                android:inputType="phone"
+                android:text="Mobile No..."
+                android:textStyle="bold"
                 android:paddingTop="15dp" />
 
             <View
@@ -80,14 +80,14 @@
                 android:text="Email Address"
                 android:textStyle="bold" />
 
-            <EditText
+            <TextView
                 android:id="@+id/profile_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:drawableEnd="@drawable/done_icon"
                 android:drawableRight="@drawable/done_icon"
-                android:hint="email"
-                android:inputType="textEmailAddress"
+                android:text="email"
+                android:textStyle="bold"
                 android:paddingTop="15dp" />
 
             <View
@@ -101,14 +101,14 @@
                 android:text="Password"
                 android:textStyle="bold" />
 
-            <EditText
+            <TextView
                 android:id="@+id/profile_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:drawableEnd="@drawable/password_icon"
                 android:drawableRight="@drawable/password_icon"
-                android:hint="password"
-                android:inputType="textPassword"
+                android:text="password"
+                android:textStyle="bold"
                 android:paddingTop="15dp" />
 
             <View

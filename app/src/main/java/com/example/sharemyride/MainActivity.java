@@ -35,13 +35,13 @@ public class MainActivity extends AppCompatActivity {
     private FirebaseUser user;
     private DatabaseReference reference;
     private String userID;
+    String email;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
 
         LoginSuccessfulFragment loginSuccessfulFragment = new LoginSuccessfulFragment();
         loginSuccessfulFragment.show(getSupportFragmentManager(),loginSuccessfulFragment.getTag());

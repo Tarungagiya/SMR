@@ -50,12 +50,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>{
         holder.person.setText(user.getPerson());
         holder.name.setText(user.getName());
 
-
-
-
-
-
-
     }
 
     @Override
